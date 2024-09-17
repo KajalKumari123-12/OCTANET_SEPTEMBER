@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main{
+    height:100%;
+    width: 100%;
+    background-color:#b04caee1;
+    display: flex;
+}
+
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: #eb1e3d; */
+}
+
+
+#part2{
+    height: 100%;
+    width:68%;
+    background-color: #e68ce4;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #ecaaec23;
+}
+
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: #4fdb5b; */
+}
+
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: bisque; */
+    left: 12%;
+    top: 30%;
+    transform: translate(0,30%);
+}
+
+#text-div>h1{
+    font-size: 95px;
+    font-family: monument;
+    font-weight: 800;
+    letter-spacing: 8px;
+    color: rgba(187, 198, 210, 0.692);
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+#small-image{
+    height: 400px;
+    width: 300px;
+    /* background-color: rgba(232, 203, 203, 0.368); */
+    background-image: url(m4.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:40%;
+    right:1%;
+    
+}
+
+#vertical-text{
+    position: absolute;
+    right: -15.5%;
+    transform-origin: 0% 0%;
+     /* bottom:200px; */
+     top:310px;
+    transform: translate(50,0);
+    /* width: 100%; */
+    /* background-color: blanchedalmond; */
+}
+
+#vertical-text h1{
+    font-size: 64px;
+    font-weight: 800;
+    font-family: monument;
+    -webkit-text-stroke-width: 2px;
+    color:transparent;
+    letter-spacing: 2px;
+    -webkit-text-stroke-color: rgb(217, 183, 221);
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    
+}
+
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+    left: 10%;
+    top: 5%;
+    /* background-color: antiquewhite; */
+}
+
+#nav image{
+    height: 50px;
+}
+
+h5{
+    font-size: 30px;
+    justify-content: space-evenly;
+    
+    color:rgb(217, 183, 221) ;
+    font-family: gilroy;
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+    left: 23.5%;
+    top: 5%;
+}
